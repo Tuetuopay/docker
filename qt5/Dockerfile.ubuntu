@@ -1,0 +1,9 @@
+FROM ubuntu:rolling
+
+RUN apt-get update &&\
+    apt-get install -y qt5-default qtdeclarative5-dev make g++
+
+RUN rm /bin/sh && ln -s /bin/bash /bin/sh
+
+WORKDIR /root
+

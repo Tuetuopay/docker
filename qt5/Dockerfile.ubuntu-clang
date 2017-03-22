@@ -1,0 +1,4 @@
+FROM tuetuopay/qt5:ubuntu
+
+RUN apt-get install -y clang
+

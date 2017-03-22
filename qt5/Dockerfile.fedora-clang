@@ -1,0 +1,4 @@
+FROM tuetuopay/qt5:fedora
+
+RUN dnf install -y clang
+

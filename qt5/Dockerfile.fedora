@@ -1,0 +1,6 @@
+FROM fedora:latest
+
+RUN dnf install -y qt5-devel
+
+WORKDIR /root
+

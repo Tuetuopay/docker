@@ -1,0 +1,4 @@
+FROM tuetuopay/qt5:arch
+
+RUN pacman -S --noconfirm clang
+
